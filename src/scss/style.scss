@@ -8,7 +8,7 @@ html {
     @media (max-width: 380px) {
         font-size: 12px;
     }
-    @media (max-width: 767px) {
+    @media (max-width: 768px) {
         font-size: 14px;
     }
     @media (max-width: 991px) {
@@ -74,7 +74,7 @@ a {
         transform: translateX(0);
     }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     body.lock {
         overflow: hidden;
     }
@@ -93,7 +93,7 @@ a {
     top: 0;
     left: 0;
     z-index: 20;
-    @media (max-width: 767px) {
+    @media (max-width: 768px) {
         position: fixed;
         padding: 3px 0;
         &::before {
@@ -122,7 +122,7 @@ a {
     @media (max-width: 991px) {
         max-width: 750px;
     }
-    @media (max-width: 767px) {
+    @media (max-width: 768px) {
         max-width: none;
     }
 }
@@ -149,7 +149,7 @@ a {
         text-transform: capitalize;
         color: #14183e;
         margin-top: 0;
-        @media (max-width: 767px) {
+        @media (max-width: 768px) {
             font-size: rem(44);
         }
     }
@@ -225,7 +225,7 @@ a {
         &:hover {
             opacity: 0.7;
         }
-        @media (max-width: 767.98px) {
+        @media (max-width: 768px) {
             font-weight: 700;
         }
         img {
@@ -270,7 +270,7 @@ a {
         display: flex;
         justify-content: flex-end;
     }
-    @media (min-width: 767.98px) {
+    @media (min-width: 768px) {
         .header-burger {
             display: none;
         }
@@ -289,7 +289,7 @@ a {
             }
         }
     }
-    @media (max-width: 767.98px) {
+    @media (max-width: 768px) {
         padding: 3px 10px;
         a {
             img {
@@ -422,7 +422,7 @@ a {
             flex: 0 1 45%;
         }
     }
-    @media (max-width: 767px) {
+    @media (max-width: 768px) {
         padding-top: rem(100);
         .travel-content {
             flex: 1 1 100%;
@@ -476,7 +476,7 @@ a {
             letter-spacing: -0.04em;
             color: #181e4b;
             margin: 20px 0;
-            @media (max-width: 767px) {
+            @media (max-width: 768px) {
                 margin: 25px 0;
             }
             @media (max-width: 400px) {
@@ -491,7 +491,7 @@ a {
             display: flex;
             margin-top: 20px;
             align-items: center;
-            @media (max-width: 767px) {
+            @media (max-width: 768px) {
                 margin-top: 40px;
             }
             @media (max-width: 420px) {
@@ -563,7 +563,7 @@ a {
     @media (max-width: 991px) {
         padding-bottom: 5px;
     }
-    @media (max-width: 767.98px) {
+    @media (max-width: 768px) {
         padding-bottom: 20px;
     }
     .sec-2-decor {
@@ -574,7 +574,7 @@ a {
         @media (max-width: 991px) {
             width: 120px;
         }
-        @media (max-width: 767px) {
+        @media (max-width: 768px) {
             display: none;
         }
     }
@@ -625,7 +625,7 @@ a {
                 background: #ffffff;
                 border-radius: 36px;
                 transition: 0.5s ease;
-                @media (max-width: 767px) {
+                @media (max-width: 768px) {
                     padding: 10px 20px;
                 }
                 &:hover {
@@ -672,7 +672,7 @@ a {
 }
 .section-third {
     margin-top: 20px;
-    @media (max-width: 767.98px) {
+    @media (max-width: 768px) {
         margin-top: 0;
     }
     .destinations {
@@ -763,7 +763,7 @@ a {
     @media (max-width: 991px) {
         padding-top: 40px;
     }
-    @media (max-width: 767px) {
+    @media (max-width: 768px) {
         justify-content: center;
         padding-top: 25px;
     }
@@ -772,7 +772,7 @@ a {
         @media (max-width: 991px) {
             flex: 0 1 60%;
         }
-        @media (max-width: 767px) {
+        @media (max-width: 768px) {
             flex: 0 1 90%;
         }
         .title-area {
@@ -780,7 +780,7 @@ a {
             h2 {
                 text-align: left;
             }
-            @media (max-width: 767px) {
+            @media (max-width: 768px) {
                 text-align: center;
                 & > h2 {
                     text-align: center;
@@ -818,7 +818,7 @@ a {
                     @media (max-width: 1200px) {
                         flex: 0 1 70%;
                     }
-                    @media (max-width: 767px) {
+                    @media (max-width: 768px) {
                         flex: 0 1 80%;
                     }
                     .step-title {
@@ -842,7 +842,7 @@ a {
         @media (max-width: 991px) {
             flex: 0 1 40%;
         }
-        @media (max-width: 767px) {
+        @media (max-width: 768px) {
             flex: 0 1 90%;
         }
         .trip-card {
@@ -861,7 +861,7 @@ a {
             @media (max-width: 991px) {
                 margin-top: 100px;
             }
-            @media (max-width: 767px) {
+            @media (max-width: 768px) {
                 margin-top: 70px;
             }
             .card-img {
@@ -958,7 +958,7 @@ a {
                     bottom: 80px;
                     border: 1px solid #e9e9e9;
                 }
-                @media (max-width: 767px) {
+                @media (max-width: 768px) {
                     right: 60px;
                     bottom: 20px;
                     border: 1px solid #e9e9e9;
@@ -1060,7 +1060,7 @@ a {
                 @media (max-width: 991px) {
                     text-align: center;
                 }
-                @media (max-width: 767px) {
+                @media (max-width: 768px) {
                     margin-bottom: 0;
                 }
             }
@@ -1084,7 +1084,7 @@ a {
             @media (max-width: 991px) {
                 right: 25px;
             }
-            @media (max-width: 767px) {
+            @media (max-width: 768px) {
                 right: 0;
             }
             @media (max-width: 500px) {
@@ -1112,7 +1112,7 @@ a {
             @media (max-width: 991px) {
                 right: 25px;
             }
-            @media (max-width: 767px) {
+            @media (max-width: 768px) {
                 right: 0;
             }
             @media (max-width: 500px) {
@@ -1138,7 +1138,7 @@ a {
             @media (max-width: 991px) {
                 width: 100%;
             }
-            @media (max-width: 767px) {
+            @media (max-width: 768px) {
                 padding: 0;
             }
             div.slick-list.draggable {
@@ -1161,7 +1161,7 @@ a {
                     padding: 10px 10px 10px 60px;
                     max-width: 570px;
                 }
-                @media (max-width: 767px) {
+                @media (max-width: 768px) {
                     margin-left: 0;
                     max-width: 85%;
                     padding: 20px 0 0 35px;
@@ -1244,7 +1244,7 @@ a {
             padding: 30px 10px 40px;
             transition: 0.3s;
             opacity: 0.2;
-            @media (max-width: 767px) {
+            @media (max-width: 768px) {
                 opacity: 1;
                 padding: 10px 10px;
             }
@@ -1279,7 +1279,7 @@ a {
 .section-seven {
     margin: 20px auto;
     position: relative;
-    @media (max-width: 767px) {
+    @media (max-width: 768px) {
         margin: 0 auto;
     }
     .sec-7-decor {
@@ -1289,7 +1289,7 @@ a {
         bottom: -10px;
         z-index: -15;
         rotate: 90deg;
-        @media (max-width: 767px) {
+        @media (max-width: 768px) {
             display: none;
         }
     }
@@ -1303,7 +1303,7 @@ a {
         @media (max-width: 991px) {
             padding: 50px 40px;
         }
-        @media (max-width: 767px) {
+        @media (max-width: 768px) {
             padding: 40px;
             border-radius: 89px 20px 20px 20px;
         }
@@ -1319,7 +1319,7 @@ a {
             @media (max-width: 991px) {
                 margin-bottom: 30px;
             }
-            @media (max-width: 767px) {
+            @media (max-width: 768px) {
                 font-size: rem(24);
                 line-height: rem(42);
             }
@@ -1339,7 +1339,7 @@ a {
             }
         }
         .email-area {
-            @media (max-width: 767px) {
+            @media (max-width: 768px) {
                 display: flex;
             }
             .input-email-div {
@@ -1360,7 +1360,7 @@ a {
                     @media (max-width: 991px) {
                         top: 0px;
                     }
-                    @media (max-width: 767px) {
+                    @media (max-width: 768px) {
                         top: 19px;
                         left: 22px;
                     }
@@ -1386,7 +1386,7 @@ a {
                 &:focus {
                     outline: 1px solid #d4d4d4bc;
                 }
-                @media (max-width: 767px) {
+                @media (max-width: 768px) {
                     flex: 0 1 70%;
                 }
                 @media (max-width: 610px) {
@@ -1416,7 +1416,7 @@ a {
                 padding: rem(20) rem(40);
                 cursor: pointer;
                 transition: all 0.3s ease 0s;
-                @media (max-width: 767px) {
+                @media (max-width: 768px) {
                     padding: rem(20) rem(30);
                     flex: 0 1 30%;
                 }
@@ -1450,7 +1450,7 @@ a {
                 width: 240px;
                 height: 240px;
             }
-            @media (max-width: 767px) {
+            @media (max-width: 768px) {
                 width: 160px;
                 height: 160px;
             }
@@ -1474,7 +1474,7 @@ a {
                 width: 240px;
                 height: 240px;
             }
-            @media (max-width: 767px) {
+            @media (max-width: 768px) {
                 width: 160px;
                 height: 160px;
             }
@@ -1493,7 +1493,7 @@ a {
             height: 60px;
             background-size: cover;
             z-index: 10;
-            @media (max-width: 767px) {
+            @media (max-width: 768px) {
                 width: 40px;
                 height: 40px;
                 top: -10px;
@@ -1510,7 +1510,7 @@ a {
     .footer-menu {
         display: flex;
         flex-wrap: wrap;
-        @media (max-width: 767px) {
+        @media (max-width: 768px) {
             justify-content: center;
             align-items: center;
         }
@@ -1522,7 +1522,7 @@ a {
             @media (max-width: 991px) {
                 flex: 0 1 20%;
             }
-            @media (max-width: 767px) {
+            @media (max-width: 768px) {
                 flex: 0 1 45%;
                 order: 1;
             }
@@ -1555,7 +1555,7 @@ a {
             @media (max-width: 991px) {
                 flex: 0 1 55%;
             }
-            @media (max-width: 767px) {
+            @media (max-width: 768px) {
                 flex: 0 1 90%;
                 order: 0;
                 margin-bottom: 30px;
@@ -1603,7 +1603,7 @@ a {
             @media (max-width: 991px) {
                 flex: 0 1 24%;
             }
-            @media (max-width: 767px) {
+            @media (max-width: 768px) {
                 flex: 0 1 45%;
                 order: 2;
             }
